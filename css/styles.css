@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-card1-color: hsl(31, 77%, 52%);
+    --main-card2-color: hsl(184, 100%, 22%);
+    --main-card3-color: hsl(179, 100%, 13%);
+    --main-para-color: hsla(0, 0%, 100%, 0.75);
+    --main-bg-color: hsl(0, 0%, 95%); /* bg, heading and btn color */
+}
+
+.attribution {
+    color: hsl(228, 45%, 44%);;
+    font-size: 11px;
+    text-align: center;
+}
