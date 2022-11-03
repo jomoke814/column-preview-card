@@ -13,7 +13,7 @@ Your users should be able to:
 - CSS Grid
 ### Links
 - Solution URL: https://github.com/jomoke814/column-preview-card.
-- Live Site URL: https://jomoke814.github.io/column-preview/
+- Live Site URL: https://jomoke814.github.io/column-preview-card/
 
 ### Desired outcome screenshots
 Desktop and Mobile designs:
