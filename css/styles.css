@@ -37,7 +37,6 @@ body {
 }
 
 .container {
-    /* font-family: 'Lexend Deca', sans-serif; */
     max-width: 1440px;
     margin: 100px;
     color: var(--main-para-color);
@@ -82,7 +81,8 @@ button {
 button:hover {
     border: 1px solid var(--main-bg-color);
     color: var(--main-bg-color);
-    background: hsla(0, 0%, 100%, 0.15);
+    background: transparent;
+    cursor: pointer;
 }
 
 .btn-1 {
@@ -105,8 +105,11 @@ button:hover {
 
 /* media query */
 @media(max-width: 900px) {
-    body {
-        display: flex;
-        flex-direction: column;
+    .container {
+        margin: 30px;
     }
+   .cars-card {
+    grid-template-columns: 1fr;
+   }
+    
 }
