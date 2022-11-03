@@ -27,7 +27,10 @@ p {
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background-image: url(../images/cars.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     font-size: 15px;
