@@ -79,7 +79,23 @@ button {
     width: 70%;
 }
 
+button:hover {
+    border: 1px solid var(--main-bg-color);
+    color: var(--main-bg-color);
+    background: hsla(0, 0%, 100%, 0.15);
+}
 
+.btn-1 {
+    color: var(--main-card1-color);
+}
+
+.btn-2 {
+    color: var(--main-card2-color);
+}
+
+.btn-3 {
+    color: var(--main-card3-color);
+}
 
 .attribution {
     color: hsl(228, 45%, 44%);
