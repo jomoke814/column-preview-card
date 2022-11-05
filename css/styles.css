@@ -73,15 +73,17 @@ body {
     background-color: var(--main-card3-color);
 }
 
-button {
+a {
     background-color: var(--main-bg-color);
     border: none;
     border-radius: 25px;
     padding: 10px;
     width: 70%;
+    text-decoration: none;
+    text-align: center;
 }
 
-button:hover {
+a:hover {
     border: 1px solid var(--main-bg-color);
     color: var(--main-bg-color);
     background: transparent;
